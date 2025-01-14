@@ -1,0 +1,90 @@
+@import "./styles.scss";
+
+.sideBar 
+{
+  height: 100%;
+  width: 138px;
+  position: fixed;
+  z-index: 99;
+  background-color: #E4E4E4;
+  margin-top: 48px;
+  float: left;
+}
+
+.informationDiv
+{
+  background-color: #E6BC97;
+  height: 48px;
+  width: 138px;
+  font-size: 20px;
+  line-height: 48px;
+}
+
+.AccountInformationLink
+{
+  color: black;
+  text-decoration: none;
+}
+
+.AccountInformationLink:hover
+{
+  font-size: 25px;
+}
+
+.HistoryDiv
+{
+  background-color: #CACACA;
+  height: 48px;
+  width: 138px;
+  font-size: 20px;
+  line-height: 48px;
+  color: black;
+  text-decoration: none;
+}
+
+.AccountHistoryLink
+{
+  color: black;
+  text-decoration: none;
+}
+
+.AccountHistoryLink:hover
+{
+  font-size: 25px;
+}
+
+.accountInformation
+{
+  float: right;
+  width: 65%;
+  margin-top: 10%;
+}
+
+.headingAI
+{
+  font-size: 50px;
+}
+
+.fieldsAI
+{
+  font-size: 25px;
+}
+
+.linkAI
+{
+  font-size: 25px;
+}
+
+.editAccountPageLink
+{
+  background-color: $bold-accent;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.editAccountPageLink:hover
+{
+  background-color: $primary;
+}
