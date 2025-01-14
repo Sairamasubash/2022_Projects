@@ -1,0 +1,32 @@
+.filter {
+	background-color: White;
+	text-align: center;
+	padding: 20px;
+}
+
+.filter a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: black;
+}
+
+.filter a:hover {
+	background-color: red;
+	color:white;
+}
+.filter a.active {
+	background-color: white;
+	color: red;
+}
+.selectevent {
+	text-align: center;
+	color: red;
+}
+
+.ui card noCharacter:before {
+    content:     "";
+    display:     block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}

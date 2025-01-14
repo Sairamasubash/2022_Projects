@@ -1,0 +1,31 @@
+/* Here we are formatting the division.*/
+div {
+  margin: auto;
+  height: 550px;
+  width: 550px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+
+/* Here we are formatting the image.*/
+img {
+  height: 150px;
+  width: 150px;
+}
+
+/* Here we are formatting the heading level 4.*/
+h4 {
+  font-style: italic;
+}
+
+/* Here we are formatting the link.*/
+a {
+  font-weight: bold;
+}
+
+/* Here we are formatting the paragraphs.*/
+p {
+  text-align: left;
+} 
+

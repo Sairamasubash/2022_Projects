@@ -1,0 +1,123 @@
+$navbar_height:200px;
+$bg-color:#900101;
+
+body{
+	background-color: $bg-color;
+}
+
+.ui image header{
+	padding-top: 80px;
+}
+
+.navbar{
+	background-color: black;
+	height:$navbar_height;
+	text-align: center;
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		width: 250px;
+	}
+}
+
+.menu {
+		background-color: black;
+		text-align: center;
+		padding: 10px;
+	}
+
+.searchbar{
+	text-align: center;
+	padding: 10px;
+	.searchbar_input{
+		width: 300px;
+		border-radius:0;
+		input{
+			border-radius:0;
+			border-color:black;
+		}
+	}
+	.button{
+		background: black;
+		color: red;
+		border-radius:0;
+		border:1px solid rgba(34,36,38,.15)
+	}
+	
+
+}
+
+ul {
+	background-color:white;
+}
+
+.radiodiv{
+	text-align: center;
+	color: white;
+	.radioinput {
+		padding: 5px;
+	}
+	padding-bottom:10px;
+}
+
+.w3-ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	li{
+		padding:8px 16px;
+		border-bottom:1px solid #ddd
+	}
+	li:last-child{
+		border-bottom:none
+	}
+	
+}
+
+.w3-card-4,.w3-hover-shadow:hover{
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+	width:auto;
+}
+.w3-bar{
+	width:100%;
+	overflow:hidden;
+	a{
+		padding:0;
+	}
+
+}
+
+/* W3.CSS 4.12 November 2018 by Jan Egil and Borge Refsnes */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+.character_name{
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+.ui.avatar.image, .ui.avatar.image img, .ui.avatar.image svg, .ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.images svg{
+	width: 5em;
+    height: 5em;
+}
+
+
+a {
+	padding: 10px;
+	color: white;
+}
+
+a:hover {
+	background-color: yellow;
+	color:red;
+}
+a.active {
+	background-color: yellow;
+	color: red;
+}
+
+.ui.segment:last-child{
+	background-color: rgba(255,255,255,0.4);
+	margin:50px;
+}

@@ -1,0 +1,25 @@
+$nocharacterpadding:50px;
+
+.noCharacter{
+	width: 100% !important;
+	margin: 0 auto;
+  	padding: $nocharacterpadding;
+  	text-align: center;
+}
+
+.modified {
+	text-align: right;
+}
+
+.bar-contnet {
+	padding-top: 10px;
+}
+
+.listrow{
+	color: black;
+}
+
+.listrow:hover {
+	color:red;
+	background-color: white;
+}
