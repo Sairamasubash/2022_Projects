@@ -1,0 +1,282 @@
+// Here we are modifying the entire page.
+*
+{ 
+    padding: 0;
+    margin: 0;
+}
+
+// Here we are modifying the body element.
+body
+{
+    background-color: black;
+}
+
+// Here we are modifying the class called homeImage.
+.homeImage
+{
+    width: 100%;
+    height: 500px;
+}
+
+// Here we are modifying the class called Header.
+.Header
+{
+    text-align: center;
+}
+
+// Here we are modifying the class called link.
+.link
+{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: red;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+// Here we are modifying the class called link when we hover over it.
+.link:hover
+{
+    background-color: blue;
+}
+
+// Here we are modifying the class called searchCharacter.
+.searchCharacter
+{
+    display: flex;
+    align-items: center;
+    color:  white;
+    width: 25%;
+    margin: auto;
+}
+
+// Here we are modifying the class called searchCharacterData.
+.searchCharacter .searchCharacterData
+{
+    outline: none;
+    background: none;
+    width: 400px;
+    height: 35px;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: 3px solid red;
+}
+
+// Here we are modifying the class called searchButton.
+.searchCharacter .searchButton
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    margin-right: 10px;
+    margin: 10px;
+}
+
+// Here we are modifying the class called searchButton when we hover over it.
+.searchCharacter .searchButton:hover
+{
+    background-color: gray;
+    cursor: pointer;
+}
+
+// Here we are modifying the class called propertyRadio.
+.propertyRadio
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+// Here we are modifying the class called characterName.
+.characterName
+{
+    margin-left: 25px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+// Here we are modifying the class called characterName when we hover over it.
+.characterName:hover
+{
+    cursor: pointer;
+}
+
+// Here we are modifying the class called lastModifiedCharacter.
+.lastModifiedCharacter
+{
+    margin-left: 25px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+// Here we are modifying the class called lastModifiedCharacter when we hover over it.
+.lastModifiedCharacter:hover
+{
+    cursor: pointer;
+}
+
+// Here we are modifying the class called orderRadio.
+.orderRadio
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+// Here we are modifying the class called ascendingOrder.
+.ascendingOrder
+{
+    margin-left: 25px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+// Here we are modifying the class called ascendingOrder when we hover over it.
+.ascendingOrder:hover
+{
+    cursor: pointer;
+}
+
+// Here we are modifying the class called descendingOrder.
+.descendingOrder
+{
+    margin-left: 25px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+// Here we are modifying the class called descendingOrder when we hover over it.
+.descendingOrder:hover
+{
+    cursor: pointer;
+}
+
+// Here we are modifying the class called homeList.
+.homeList
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+// Here we are modifying the class called list.
+.optionsList .list
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: red;
+}
+
+// Here we are modifying the class called list when we hover over it.
+.optionsList .list:hover
+{
+    color: blue;
+}
+
+// Here we are modifying the class called listImage.
+.optionsList .list .searchedInformation .listImage
+{
+    height: 250px;
+    width: 250px;
+}
+
+// Here we are modifying the class called listName.
+.optionsList .list .searchedInformation .listName
+{
+    background-color: red;
+}
+
+// Here we are modifying the class called listModified.
+.optionsList .list .searchedInformation .listModified
+{
+    background-color: red;
+}
+
+// Here we are modifying the class called galleryTwoImage.
+.galleryTwoImage
+{
+    height: 250px;
+    width: 250px;
+}
+
+// Here we are modifying the class called galleryTwoImage when we hover over it.
+.galleryTwoImage:hover
+{
+    border-radius: 50px;
+}
+
+// Here we are modifying the class called searchGallery.
+.searchGallery
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+}
+
+// Here we are modifying the class called genreSelection.
+.genreSelection
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+// Here we are modifying the class called one.
+.one
+{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: red;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+// Here we are modifying the class called one when we hover over it.
+.one:hover
+{
+    background-color: blue;
+    cursor: pointer;
+}
+
+// Here we are modifying the class called noGallerySearch.
+.noGallerySearch
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+// Here we are modifying the class called detailInformations.
+.detailInformations 
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+// Here we are modifying the class called detailImage.
+.detailImage
+{
+    height: 250px;
+    width: 250px;
+} 
