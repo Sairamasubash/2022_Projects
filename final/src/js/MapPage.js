@@ -196,7 +196,6 @@ export default class MapPage extends React.Component {
     console.log(this.state.selectedMarker);
     return (
       <div>
-        <LoadScript googleMapsApiKey="AIzaSyBwrwXQZRX_inRPmoN4xzOJDZ3tHrcY7Mc">
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
